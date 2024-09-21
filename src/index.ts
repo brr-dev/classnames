@@ -3,6 +3,8 @@
  * @copyright Copyright (c) 2024
  */
 
-export function testFunc(): void {
-    console.log('Test success.');
-}
+export {
+    default as classnames,
+    default as cn,
+    ClassnamesFuncArgs,
+} from './classnames';
